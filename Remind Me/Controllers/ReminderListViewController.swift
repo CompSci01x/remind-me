@@ -33,7 +33,7 @@ class ReminderListViewController: UITableViewController {
             }
             
             targetController.configure(with: reminder, editAction:  { reminder in
-                self.reminderListDataSource?.update(reminder, at: rowIndex)
+                self.reminderListDataSource?.update(reminder)
                 self.tableView.reloadData()
             })
         }

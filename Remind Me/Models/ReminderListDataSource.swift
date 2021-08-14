@@ -61,6 +61,7 @@ class ReminderListDataSource: NSObject {
         do {
             let request = Reminder.fetchRequest() as NSFetchRequest<Reminder>
             request.sortDescriptors = [NSSortDescriptor(key: "dueDate", ascending: false)]
+            
             return try context.fetch(request)
         } catch {
             
@@ -73,11 +74,12 @@ class ReminderListDataSource: NSObject {
         return reminders?[row]
     }
     
-    func update(_ reminder: Reminder, at row: Int) {
+    func update(_ reminder: Reminder) {
         
-        reminders?[row].title = reminder.title
-        reminders?[row].dueDate = reminder.dueDate
-        reminders?[row].isComplete = reminder.isComplete
+        print("update method, \(reminder.title ?? "")")
+        reminders?.first(where: {$0.reminderId == reminder.reminderId})?.title = reminder.title
+        reminders?.first(where: {$0.reminderId == reminder.reminderId})?.dueDate = reminder.dueDate
+        reminders?.first(where: {$0.reminderId == reminder.reminderId})?.isComplete = reminder.isComplete
         
         do {
             try self.context.save()
@@ -98,6 +100,8 @@ class ReminderListDataSource: NSObject {
     func add() -> Reminder {
         
         let newReminder = Reminder(context: self.context)
+        
+        newReminder.reminderId = UUID()
         newReminder.title = "New Reminder"
         newReminder.dueDate = Date()
         newReminder.isComplete = false
@@ -119,7 +123,7 @@ extension ReminderListDataSource: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: Self.reminderListCellIdentifier, for: indexPath) as? ReminderListCell else {
             fatalError("Unable to dequeue ReminderCell")
         }
-        let reminder = reminder(at: indexPath.row)
+        let reminder = reminders?[indexPath.row]
         let dateText = ReminderRow.dateFormatter.string(from: reminder!.dueDate!)
         let timeText = ReminderRow.timeFormatter.string(from: reminder!.dueDate!)
         
@@ -137,9 +141,7 @@ extension ReminderListDataSource: UITableViewDataSource {
                                                                  green: 102/255,
                                                                  blue:255/255,
                                                                  alpha: 0.5) : .systemBackground
-        
-        update(reminder!, at: indexPath.row)
-        
+                
         let center = UNUserNotificationCenter.current()
         
         center.requestAuthorization(options: [.alert, .sound,], completionHandler: { (granted, error) in

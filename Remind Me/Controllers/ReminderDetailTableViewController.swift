@@ -38,6 +38,7 @@ class ReminderDetailTableViewController: UITableViewController {
         
         setEditing(true, animated: false)
         navigationItem.setRightBarButton(editButtonItem, animated: false)
+        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: ReminderDetailEditDataSource.dateLabelCellIdentifier)
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: ReminderDetailEditDataSource.timeLabelCellIdentifier)
     }
