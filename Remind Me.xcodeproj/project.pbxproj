@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		5D7BA91626ACCFCE0019EC6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA91526ACCFCE0019EC6E /* AppDelegate.swift */; };
 		5D7BA91826ACCFCE0019EC6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA91726ACCFCE0019EC6E /* SceneDelegate.swift */; };
-		5D7BA91A26ACCFCE0019EC6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA91926ACCFCE0019EC6E /* ViewController.swift */; };
+		5D7BA91A26ACCFCE0019EC6E /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA91926ACCFCE0019EC6E /* ReminderListViewController.swift */; };
 		5D7BA91D26ACCFCE0019EC6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BA91B26ACCFCE0019EC6E /* Main.storyboard */; };
 		5D7BA92026ACCFCE0019EC6E /* Remind_Me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA91E26ACCFCE0019EC6E /* Remind_Me.xcdatamodeld */; };
 		5D7BA92226ACCFCF0019EC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BA92126ACCFCF0019EC6E /* Assets.xcassets */; };
 		5D7BA92526ACCFCF0019EC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BA92326ACCFCF0019EC6E /* LaunchScreen.storyboard */; };
+		5D7BA92F26ACE8C10019EC6E /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA92E26ACE8C10019EC6E /* ReminderListCell.swift */; };
+		5D7BA93E26B3C4030019EC6E /* ReminderDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA93D26B3C4030019EC6E /* ReminderDetailTableViewController.swift */; };
+		5D7BA94026B718790019EC6E /* ReminderListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA93F26B718790019EC6E /* ReminderListDataSource.swift */; };
+		5D7BA94226B71D7D0019EC6E /* ReminderDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA94126B71D7D0019EC6E /* ReminderDetailDataSource.swift */; };
+		5D7BA94426B74B450019EC6E /* EditTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA94326B74B450019EC6E /* EditTitleCell.swift */; };
+		5D7BA94626B74BEA0019EC6E /* EditDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA94526B74BEA0019EC6E /* EditDateCell.swift */; };
+		5D7BA94826B74DEB0019EC6E /* ReminderDetailEditDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BA94726B74DEB0019EC6E /* ReminderDetailEditDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D7BA91226ACCFCE0019EC6E /* Remind Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remind Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7BA91526ACCFCE0019EC6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D7BA91726ACCFCE0019EC6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D7BA91926ACCFCE0019EC6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D7BA91926ACCFCE0019EC6E /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		5D7BA91C26ACCFCE0019EC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D7BA91F26ACCFCE0019EC6E /* Remind_Me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Remind_Me.xcdatamodel; sourceTree = "<group>"; };
 		5D7BA92126ACCFCF0019EC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7BA92426ACCFCF0019EC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D7BA92626ACCFCF0019EC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7BA92E26ACE8C10019EC6E /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
+		5D7BA93D26B3C4030019EC6E /* ReminderDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailTableViewController.swift; sourceTree = "<group>"; };
+		5D7BA93F26B718790019EC6E /* ReminderListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListDataSource.swift; sourceTree = "<group>"; };
+		5D7BA94126B71D7D0019EC6E /* ReminderDetailDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailDataSource.swift; sourceTree = "<group>"; };
+		5D7BA94326B74B450019EC6E /* EditTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTitleCell.swift; sourceTree = "<group>"; };
+		5D7BA94526B74BEA0019EC6E /* EditDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDateCell.swift; sourceTree = "<group>"; };
+		5D7BA94726B74DEB0019EC6E /* ReminderDetailEditDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailEditDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +74,45 @@
 			children = (
 				5D7BA91526ACCFCE0019EC6E /* AppDelegate.swift */,
 				5D7BA91726ACCFCE0019EC6E /* SceneDelegate.swift */,
-				5D7BA91926ACCFCE0019EC6E /* ViewController.swift */,
 				5D7BA91B26ACCFCE0019EC6E /* Main.storyboard */,
+				5D7BA93026B39D870019EC6E /* Models */,
+				5D7BA93126B39DB40019EC6E /* Controllers */,
+				5D7BA93226B39DC00019EC6E /* Views */,
 				5D7BA92126ACCFCF0019EC6E /* Assets.xcassets */,
 				5D7BA92326ACCFCF0019EC6E /* LaunchScreen.storyboard */,
 				5D7BA92626ACCFCF0019EC6E /* Info.plist */,
 				5D7BA91E26ACCFCE0019EC6E /* Remind_Me.xcdatamodeld */,
 			);
 			path = "Remind Me";
+			sourceTree = "<group>";
+		};
+		5D7BA93026B39D870019EC6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BA93F26B718790019EC6E /* ReminderListDataSource.swift */,
+				5D7BA94126B71D7D0019EC6E /* ReminderDetailDataSource.swift */,
+				5D7BA94726B74DEB0019EC6E /* ReminderDetailEditDataSource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D7BA93126B39DB40019EC6E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BA91926ACCFCE0019EC6E /* ReminderListViewController.swift */,
+				5D7BA93D26B3C4030019EC6E /* ReminderDetailTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5D7BA93226B39DC00019EC6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BA92E26ACE8C10019EC6E /* ReminderListCell.swift */,
+				5D7BA94326B74B450019EC6E /* EditTitleCell.swift */,
+				5D7BA94526B74BEA0019EC6E /* EditDateCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +185,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D7BA91A26ACCFCE0019EC6E /* ViewController.swift in Sources */,
+				5D7BA91A26ACCFCE0019EC6E /* ReminderListViewController.swift in Sources */,
 				5D7BA91626ACCFCE0019EC6E /* AppDelegate.swift in Sources */,
+				5D7BA93E26B3C4030019EC6E /* ReminderDetailTableViewController.swift in Sources */,
+				5D7BA94026B718790019EC6E /* ReminderListDataSource.swift in Sources */,
+				5D7BA94626B74BEA0019EC6E /* EditDateCell.swift in Sources */,
 				5D7BA92026ACCFCE0019EC6E /* Remind_Me.xcdatamodeld in Sources */,
 				5D7BA91826ACCFCE0019EC6E /* SceneDelegate.swift in Sources */,
+				5D7BA94826B74DEB0019EC6E /* ReminderDetailEditDataSource.swift in Sources */,
+				5D7BA94226B71D7D0019EC6E /* ReminderDetailDataSource.swift in Sources */,
+				5D7BA94426B74B450019EC6E /* EditTitleCell.swift in Sources */,
+				5D7BA92F26ACE8C10019EC6E /* ReminderListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
