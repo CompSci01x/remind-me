@@ -12,7 +12,7 @@
 
 | Adding Reminders | iOS Notification |
 | ------------- | ------------- |
-| * Adding "Email Team" and "Clean Garage" reminder items<br /><br />https://github.com/CompSci01x/remind-me/blob/main/RemindMe-DemoMovs/RemindMe-Demo1.mov" | * A notification appears with the title of the reminder item "Email Team"<br /><br />https://github.com/CompSci01x/remind-me/blob/main/RemindMe-DemoMovs/RemindMe-Demo2.mov |
+| * Adding "Email Team" and "Clean Garage" reminder items<br /><br /><img src="https://github.com/CompSci01x/remind-me/blob/main/Gifs/RemindMe-Demo1.gif" width="340" height="725" /> | * A notification appears with the title of the reminder item "Email Team"<br /><br /><img src="https://github.com/CompSci01x/remind-me/blob/main/Gifs/RemindMe-Demo2.gif" width="340" height="725" />  |
 
 </div>
 
