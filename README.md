@@ -23,7 +23,7 @@
 
 | Add / Delete | Edit / Reorder |
 | ------------- | ------------- |
-| * Adding a new "Order Lunch" item <br /> <br />* Deleting the completed "Email Team " item <br /><br /><br /><br /><br /><br /><br /><img src="https://github.com/CompSci01x/remind-me/blob/main/Gifs/RemindMe-Demo3.gif" width="340" height="725" />  | * Changing the due date of the "Clean Garage" reminder item. <br /> <br /> * After the edit, "Clean Garage" jumps to the top of the list <br /> because its due date is now at a later date than the <br /> "Order Lunch" item. <br /><br /> * The reminder list is ordered from the latest due date (top) <br /> to the earliest due date (bottom) <br /><br /><img src="https://github.com/CompSci01x/remind-me/blob/main/Gifs/RemindMe-Demo4.gif" width="340" height="725" />  |
+| * Adding a new "Order Lunch" item <br /> <br />* Deleting the completed "Email Team " item <br /><br /><br /><br /><br /><br /><br /><br /><img src="https://github.com/CompSci01x/remind-me/blob/main/Gifs/RemindMe-Demo3.gif" width="340" height="725" />  | * Changing the due date of the "Clean Garage" <br />reminder item. <br /> <br /> * After the edit, "Clean Garage" jumps to the top <br />of the list because its due date is now at a later <br />date than the "Order Lunch" item. <br /><br /> * The reminder list is ordered from the latest due <br />date (top)  to the earliest due date (bottom) <br /><br /><img src="https://github.com/CompSci01x/remind-me/blob/main/Gifs/RemindMe-Demo4.gif" width="340" height="725" />  |
 
 <p>&nbsp;</p>
 
