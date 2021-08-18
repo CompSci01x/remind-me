@@ -2,7 +2,7 @@
 
 *A UIKit and Storyboard iOS app which allows users to create reminders and then receive <br />
 local notifications based on their due dates. <br />
-Utilizing Core Data, User Notifications and endeavoring to follow the MVC software architecture pattern.  
+Utilizing Core Data, User Notifications and endeavoring to follow the MVC software architecture pattern.*
 
 **Feature Demos:**
 - [Adding Reminders | iOS Notifications](#adding-reminders--ios-notifications)
